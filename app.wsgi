@@ -1,18 +1,13 @@
 # #!/usr/bin/python
+
+# activate_this_file="/home/vilal/venv/bin/activate_this.py"
+
+# with open(activate_this_file) as file:
+#     exec(file.read(), dict(__file__=activate_this_file))
+
 # import sys
-# import os
-# import logging
-
-# venv_path = '/var/www/html/public_html/webzaar-server'
-# activate_this = os.path.join(venv_path, 'bin', 'activate_this.py')
-
-# with open(activate_this) as file_:
-#     exec(file_.read(), {'__file__': activate_this})
-
-# sys.path.insert(0, "/var/www/html/public_html/webzaar-server")
-# logging.basicConfig(stream=sys.stderr, level=logging.DEBUG)
+# sys.path.insert(0, "/home/vilal/ebslab/webzaar-backend")
 # from run import app as application
-
 
 import sys
 import site
