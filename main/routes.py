@@ -13,7 +13,8 @@ cors = CORS(app, resources={
     }
 })
 
-db_config = {'user': 'root', 'password': 'sincostan', 'host': 'localhost', 'database': 'tribedb'}
+#db_config = {'user': 'root', 'password': 'sincostan', 'host': 'localhost', 'database': 'tribedb'}
+db_config = {'user': 'root', 'password': 'cohondob', 'host': 'localhost', 'database': 'tribedb'}
 
 
 def connect_to_database():
