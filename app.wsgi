@@ -14,7 +14,8 @@ import site
 import os
 import logging
 
-venv_path = '/home/vilal/ebslab/webzaar-backend/venvDwebzaar'
+#venv_path = '/home/vilal/ebslab/webzaar-backend/venvDwebzaar'
+venv_path = '/var/www/dwebzaar.ebslab.in/public_html/dwebzaar-backend/venvDwebzaar'
 
 # Add the site-packages of the chosen virtualenv to work with
 site.addsitedir(os.path.join(venv_path, 'lib', 'python%s' % sys.version[:3], 'site-packages'))
